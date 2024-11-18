@@ -1,1 +1,6 @@
-/* место для вашего кода */
+.header 
+{display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(1fr);
+    
+}
