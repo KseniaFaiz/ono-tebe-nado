@@ -1,4 +1,5 @@
 
+
 .header 
 {
     display: flex;
@@ -16,8 +17,8 @@
 .header_logo
 {
 display: block;
-width: 20px;
-height: 20px;
+width: 200px;
+height: 200px;
 }
 
 .header_logo-image
