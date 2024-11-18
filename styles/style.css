@@ -1,6 +1,39 @@
 .header 
-{display: grid;
-    grid-template-columns: repeat(3,3fr);
-    grid-template-rows: repeat(1fr);
-    
+{
+    display: flex;
+    margin: auto;
+
 }
+
+.header_link_activ 
+.header_link-list-item 
+{
+    text-decoration: none;
+
+}
+
+.header_logo
+{
+display: block;
+width: 20px;
+height: 20px;
+}
+
+.header_logo-image
+{
+display: block;
+width: 10%;
+height: 10%;
+}
+
+.adress
+{
+    display: block;
+    margin: 0;
+
+}
+
+.header__address
+{
+    list-style: none; 
+   }
