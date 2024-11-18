@@ -1,3 +1,4 @@
+
 .header 
 {
     display: flex;
@@ -22,18 +23,18 @@ height: 20px;
 .header_logo-image
 {
 display: block;
-width: 10%;
-height: 10%;
+max-width: 100%; 
+height: auto;
 }
 
-.adress
+.adress 
 {
     display: block;
     margin: 0;
 
 }
 
-.header__address
+.header__address 
 {
     list-style: none; 
-   }
+}
