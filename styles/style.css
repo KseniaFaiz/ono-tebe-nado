@@ -12,8 +12,8 @@ body {
     grid-template-rows: 184px;
     width: 1052px;
     height: 105px;
-background-color: rgb(233, 204, 204);
-padding: 92px 24px ;
+background-color: white;
+margin: 92px 24px ;
 }
 
 .header_menu {
@@ -63,11 +63,11 @@ height: auto;
 
 
 .adress {
-width: 240.52px;
+    width: 240px;
 height: 98px;
-grid-column: 6/5;
+grid-column: 4/6;
 align-self: center;
-justify-self: center;
+justify-self: right;
 margin: 5px 24px 2px 0;
 }
 
@@ -75,6 +75,23 @@ margin: 5px 24px 2px 0;
 .header__address 
 {
     list-style: none; 
+}
+
+
+.cover {
+    display: flex;
+    background-image: url(/images/lotus-flower.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    }
+
+.cover__title {
+    width: 100%;
+}
+
+.accent-span {
+display: block;
 }
 
 .lots {
