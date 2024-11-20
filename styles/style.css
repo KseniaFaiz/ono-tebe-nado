@@ -112,7 +112,7 @@ margin: 5px 24px 2px 0;
         margin: 0px 50px;
         margin-top: 165px;
         letter-spacing: 0.25em;
-        z-index: 1;
+
     }
     
     .aligned-text {
@@ -125,9 +125,12 @@ margin: 5px 24px 2px 0;
         margin-left: 78px;
         color: white;
         margin-top: 135px;
+        margin-right: 50px;
+        justify-content: end;
     }
     
     .cover__description-text {
+        display: flex;
         font-family: Raleway;
 font-size: 22px;
 font-weight: 400;
@@ -136,6 +139,7 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 text-transform: uppercase;
+align-items: center;
 
     }
 
@@ -169,16 +173,17 @@ text-transform: uppercase;
         
     }
 
-    .padding_subline {
-padding-right: 15px;
+    .subline {
+display: flex;
+gap: 15px;
     }
 
     .bet-button {
-    align-self: flex-end;
+    justify-self: flex-end;
         width: 256px;
         height: 51px;
-        margin-left: 79px;
-        margin-bottom: 50px;
+   
+
         background-color: transparent;
         border-color: white;
         color: white;
@@ -190,7 +195,7 @@ padding-right: 15px;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         text-transform: uppercase;
-
+margin-left: 79px;
     }
 
 
