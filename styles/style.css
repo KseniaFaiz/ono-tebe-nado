@@ -28,7 +28,6 @@ justify-self: stretch;
    display: flex;
    justify-content: space-between;
    align-items: center;
-
     list-style: circle;
     min-width: 100%;
 }
@@ -166,19 +165,17 @@ align-items: center;
         font-weight: 700;
         line-height: 100px;
         text-align: right;
-
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        
     }
 
     .subline {
-display: flex;
-gap: 15px;
+        display: flex;
+        gap: 15px;
     }
 
     .bet-button {
-    justify-self: flex-end;
+        justify-self: flex-end;
         width: 256px;
         height: 51px;
         background-color: transparent;
@@ -192,11 +189,11 @@ gap: 15px;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         text-transform: uppercase;
-margin-left: 79px;
+        margin-left: 79px;
     }
 
 
-.lots {
+    .lots {
 
     color: rgb(100, 29, 29);
     width: 1052px;
@@ -378,12 +375,43 @@ z-index: 1;
 }
 
 .about__inlogo {
-
     width: 148px;
     height: 114px;
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     color: black;
-    padding: 2842px 50px 88px 50px;
+    margin: 180px 50px 0px 50px;
+    height: 98px;
+    width: 1000px;
+}
+
+.footer__menu {
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+
+.footer__menu-list {
+
+    text-align: center;
+    list-style: none;
+}
+
+.footer__social-list {
+grid-column: 3;
+}
+
+.footer__social-link {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__social-list-item {
+    display: flex;
+    justify-content: end;
+    gap: 48px;
+    list-style: none;
 }
